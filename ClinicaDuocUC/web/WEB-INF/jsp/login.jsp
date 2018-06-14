@@ -11,7 +11,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Ingreso Admin</title>
+        <title>Clínica DuocUC | Ingreso Personal Médico y Administrativo</title>
 
         <link href="css/login.css" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -19,14 +19,14 @@
     <body>
         <div class="container" align="center">
             <div class="panel-heading">
-                <h1 style="color:white">Ingreso solo para Administración</h1>
+                <h1 style="color:black">Ingreso solo para Personal Médico y Administrativo</h1>
             </div>
             <div class="row" id="pwd-container">
                 <div class="col-md-4"></div>
                 <div class="col-md-4 text-center" align="center">
                     <section class="login-form">
                         <form:form method="post" action="#" role="login">
-                            <img src="img/loginAdmin.png" class="img-responsive" alt="" />
+                            <img src="img/logoLogin.png" class="img-responsive" alt="" />
                             <input type="text" name="userName" placeholder="Usuario" required class="form-control input-lg" />
                             <input type="password" name="password" class="form-control input-lg" placeholder="Contraseña" required="" />
                             <div class="pwstrength_viewport_progress"></div>

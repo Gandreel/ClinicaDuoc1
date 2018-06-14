@@ -21,18 +21,20 @@
             <props>
                 <prop key="index.htm">indexController</prop>
                 <prop key="inicio.htm">inicioController</prop>
-                <prop key="formulario.htm">formularioController</prop>
                 <prop key="login.htm">loginController</prop>
-                <prop key="cliente.htm">clienteController</prop>
                 <prop key="vistaAdmin.htm">adminController</prop>
-                <prop key="eliminar.htm">eliminarController</prop>
-                <prop key="editarCliente.htm">editarController</prop>
-                <prop key="mascota.htm">mascotaController</prop>
-                <prop key="editarMascota.htm">editarMascotaController</prop>
-                <prop key="eliminarMascota.htm">eliminarMascotaController</prop>
+                <prop key="administrativo.htm">administrativoController</prop>
+                <prop key="editarAdministrativo.htm">editarAdministrativoController</prop>
+                <prop key="eliminarAdministrativo.htm">eliminarAdministrativoController</prop>
+                <prop key="especialista.htm">especialistaController</prop>
+                <prop key="editarEspecialista.htm">editarEspecialistaController</prop>
+                <prop key="eliminarEspecialista.htm">eliminarEspecialistaController</prop>
+                <prop key="paciente.htm">pacienteController</prop>
+                <prop key="vistaPersAdm.htm">adminController</prop>
+                <prop key="ficha.htm">fichaController</prop>
                 <prop key="atencion.htm">atencionController</prop>
-                <prop key="editarAtencion.htm">editarAtencionController</prop>
-                <prop key="eliminarAtencion.htm">eliminarAtencionController</prop>
+                <prop key="vistaMedico.htm">adminController</prop>
+                <prop key="receta.htm">recetaController</prop>
             </props>
         </property>
     </bean>
@@ -45,18 +47,18 @@
     <!--
     The index controller.
     -->
-    <bean name="eliminarAtencionController" class="controller.EliminarAtencionController"/>
-    <bean name="editarAtencionController" class="controller.EditarAtencionController"/>
+    <bean name="recetaController" class="controller.RecetaController"/>
     <bean name="atencionController" class="controller.AtencionController"/>
-    <bean name="eliminarMascotaController" class="controller.EliminarMascotaController"/>
-    <bean name="editarMascotaController" class="controller.EditarMascotaController"/>
-    <bean name="mascotaController" class="controller.MascotaController"/>
-    <bean name="editarController" class="controller.EditarController"/>
-    <bean name="eliminarController" class="controller.EliminarController"/>
+    <bean name="fichaController" class="controller.FichaController"/>
+    <bean name="pacienteController" class="controller.PacienteController"/>
+    <bean name="eliminarEspecialistaController" class="controller.EliminarEspecialistaController"/>
+    <bean name="editarEspecialistaController" class="controller.EditarEspecialistaController"/>
+    <bean name="especialistaController" class="controller.EspecialistaController"/>
+    <bean name="eliminarAdministrativoController" class="controller.EliminarAdministrativoController"/>
+    <bean name="editarAdministrativoController" class="controller.EditarAdministrativoController"/>
+    <bean name="administrativoController" class="controller.AdministrativoController"/>
     <bean name="adminController" class="controller.AdminController"/>
-    <bean name="clienteController" class="controller.ClienteController"/>
     <bean name="loginController" class="controller.LoginController"/>
-    <bean name="formularioController" class="controller.FormularioController"/>
     <bean name="inicioController" class="controller.InicioController"/>
     <bean name="indexController"
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
